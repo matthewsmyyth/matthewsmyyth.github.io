@@ -1,0 +1,70 @@
+body {
+
+	
+	
+	
+}
+div {
+	position: absolute;
+}
+
+img {
+	width:1280px;
+	height:635px;
+}
+
+h1 {
+	padding-left: 5px;
+	padding-top: 5px;
+	bottom:0;
+	left:20px;
+	right:0;
+	margin:5px;
+	color: rgb(106, 88, 69);
+	line-height: 30px;
+	font-family: asul;
+}
+
+h2 {font-family: asul;
+	color: black;
+	
+}
+
+p {
+	color: #000000;
+	font-family: asul;
+	
+}
+
+.warsaw {
+width:225px;
+height:80px;
+top: 50px;
+background-color: rgb(255, 255, 255);
+z-index: 1;
+}
+
+.video {
+	top:0px;
+	width:1280px;
+	height:635px;
+	
+}
+
+.handdrawntype {
+	top:0px;
+	width:1280px;
+	height:635px;
+
+}
+
+.subtext1 {
+	top:620px;
+	left:1000px;
+
+}
+
+.subtext2 {
+	top:620px;
+	left:700px;
+}
