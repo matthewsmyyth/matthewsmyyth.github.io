@@ -1,4 +1,4 @@
-body {
+body {left: 0px;
 
 	
 	
@@ -10,7 +10,7 @@ div {
 
 img {
 	width:1280px;
-	height:635px;
+	height:634px;
 }
 
 h1 {
@@ -26,13 +26,16 @@ h1 {
 }
 
 h2 {font-family: asul;
-	color: black;
+	color: rgb(106, 88, 69);
+	font-size:16px;
 	
 }
 
 p {
 	color: #000000;
 	font-family: asul;
+	font-size:16px;
+	color: rgb(106, 88, 69);
 	
 }
 
@@ -59,12 +62,21 @@ z-index: 1;
 }
 
 .subtext1 {
-	top:620px;
-	left:1000px;
+	height:50px;
+	width:150px;
+	top:645px;
+	left:750px;
 
 }
 
 .subtext2 {
-	top:620px;
-	left:700px;
+	top:640px;
+	left:1000px;
+	height:50px;
+	width:250px;
+}
+
+.texture {
+	top:100px;
+	opacity: 0.3;
 }
