@@ -1,0 +1,393 @@
+*
+ {
+ 	margin:0px;
+ }
+body {left: 0px;
+
+	
+	
+	
+}
+
+
+div {
+	position: absolute;
+}
+
+
+h1 {
+
+	padding-left: 5px;
+	padding-top: 5px;
+	bottom:0;
+	left:20px;
+	right:0;
+	margin:5px;
+	color: rgb(106, 88, 69);
+	line-height: 30px;
+	font-family: asul;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+
+
+p {
+	
+	font-family: asul;
+	font-size:20px;
+	color: rgb(106, 88, 69);
+	
+}
+
+.feature {
+	z-index: 2;
+	top:13px;
+	left:255px;
+	width:100vw;
+height:45px;
+}
+
+.feature p {font-size: 20px;
+
+font-weight:; }
+
+.warsaw {
+	
+width:100vw;
+height:45px;
+top: 0;
+background-color: rgb(255, 255, 255);
+z-index: 1;
+}
+
+
+.warsawrule {
+	width:100vw;
+	height: 5px;
+	background-color: rgb(106, 88, 69);
+	z-index: 2;
+
+}
+
+.warsawhamburger1 {
+	top:15px;
+	right:25px;
+	width:20px;
+	height:2px;
+	background-color: rgb(106, 88, 69);
+	z-index: 2;
+}
+
+.warsawhamburger2 {
+	top:25px;
+	right:25px;
+	width:20px;
+	height:2px;
+	background-color: rgb(106, 88, 69);
+	z-index: 2;
+}
+
+.warsawhamburger3 {
+	top:35px;
+	right:25px;
+	width:20px;
+	height:2px;
+	background-color: rgb(106, 88, 69);
+	z-index: 2;
+}
+
+.video {
+	position: fixed;
+	top:0;
+	left:0;
+	z-index: -1;
+
+	min-width: 100vw;
+	min-height: 100vh;
+
+	top:75%;
+	left:75%;
+	transform: translate(-50%, -50%);
+	
+}
+
+.handdrawntype {
+
+	width:100vw;
+	height:60vh;
+	opacity: 0.8;
+	position: relative;
+
+
+	background-image: url("the oh hellos type2.svg");
+	background-size: contain;
+	background-repeat: no-repeat;
+	top:60px;
+	}
+
+.image {
+	display: none;
+	width:100vw;
+	height:100vh;
+
+	background-image: url("image.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+.subtext {
+	height:55px;
+	width:100vw;
+	position:relative;
+	left:0;
+	
+	opacity: 0.7;
+	padding:20px;
+	border-radius: 20px 0 0 0;
+	background-size: ;
+
+
+}
+.date {
+	
+	height: 120px;
+
+	left:100px;
+}
+.date h2 {
+	font-size:50px;
+	font-weight: bold;
+	display: inline-block;
+	opacity: 0.7;
+	padding:20px;
+	border-radius: 20px 20px 20px 20px;
+	background-size:
+	width: 50px;
+	
+	
+	background-color: white;
+}
+
+.tickets {
+	
+	height: 120px;
+
+	left:50vw;
+	transform: translateX(-50%);
+}
+
+.tickets p {
+		font-size:50px;
+	
+	font-height:20px;
+	text-align: center;
+
+	display: inline-block;
+	opacity: 0.7;
+	padding:20px;
+	border-radius: 20px 20px 20px 20px;
+	background-size:
+	width: 50px;
+	
+	
+	background-color: white;
+
+}
+.address {
+	
+display: inline-block;
+	opacity: 0.7;
+	padding:20px;
+	border-radius: 20px 20px 20px 20px;
+	background-size:
+	width: 50px;
+	background-color: white;
+	right:100px;
+	height: 120px;
+}
+
+h2 {font-family: asul;
+	color: rgb(106, 88, 69);
+	font-size:50px;
+	font-weight:thin;
+	background-color: white;
+	
+}
+.address p {
+	text-align: center;
+
+
+	}
+
+strong {
+	font-size:50px;
+	font-weight:normal;
+
+}	
+
+.addressrule {
+	
+	width:200px;
+	height:2px;
+	background-color: rgb(106, 88, 69);
+	z-index: 2;
+}
+
+
+.ticketsrule {
+	display: none;
+	
+}
+
+
+
+
+
+.texture {
+	top:100px;
+	opacity: 0.3;
+}
+
+
+
+.mobile {
+	display: none;
+}
+
+
+
+.handdrawntype1 {
+	display: none;
+	background-image: url("type3.svg");
+	opacity: 1.0;
+	
+	background-size: contain;
+	background-repeat: no-repeat;
+	
+}
+
+.tickets2 {
+	display:none;
+}
+
+.address2 {
+	display:none;
+}
+
+@media(max-width: 860px) {
+
+.feature{
+	display: none;
+}
+
+.video {
+	display: none;
+}
+
+.handdrawntype1 {
+	display: inline-block;
+	background-image: url("type3.svg");
+	opacity: 1.0;
+	top:58px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	width:100vw;
+	height:100vh;
+	z-index: 3;
+	position: relative;
+	
+}
+
+
+.handdrawntype {
+	display: none;
+}
+
+.image {
+	display: inline-block;
+	background-image: url("image.png");
+	top: 50px;
+	width:100vw;
+	height:50vh;
+	position: relative;
+	background-size:cover;
+	background-position:center bottom;
+
+}
+
+.mobile {
+	width: 100vw;
+	height: 100vw;
+	display: inline;
+
+}
+
+
+.date {
+	display: inline;
+	top:-90vh;
+	left:-2vh;
+	
+	opacity: 1.0;
+
+
+}
+
+.date p {
+	font-size:40vh;
+
+}
+.tickets {
+	display: none;
+}
+
+.ticketsrule{
+	display: inline-block;
+	top: -85vh;
+	left:31vh;
+	width:2px;
+	height:200px;
+	background-color: rgb(106, 88, 69);
+	z-index: 2;
+}
+.address{
+	
+	display: block;
+
+	left:20px;
+	right: 0;
+	position: relative;
+}
+
+.address2 {
+	display: block;
+}
+
+.addressrule {
+	
+	left:80px;
+	width:200px;
+	height:2px;
+	background-color: rgb(106, 88, 69);
+	z-index: 2;
+	display: center;
+}
+
+.image { position: relative;
+
+}
+
+.tickets2 {
+	top:-87vh;
+	display: inline;
+	left:37vh;
+}
+
+.subtext {
+	opacity: 1.0;
+}
+}
+
+
+
