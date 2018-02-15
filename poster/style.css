@@ -3,6 +3,7 @@
  	margin:0px;
  }
 body {left: 0px;
+	height: 100
 
 	
 	
@@ -128,8 +129,7 @@ z-index: 1;
 
 .image {
 	display: none;
-	width:100vw;
-	height:100vh;
+	
 
 	background-image: url("image.png");
 	background-size: contain;
@@ -172,12 +172,16 @@ z-index: 1;
 
 .tickets {
 	
-	height: 120px;
+	height: 140px;
 right:100px;
+background-color: white;
+opacity: 0.7;
+border-radius: 20px 20px 20px 20px;
 	
 }
 
-.tickets p {
+.tickets h2 {
+		
 		font-size:50px;
 	
 	font-height:20px;
@@ -185,8 +189,11 @@ right:100px;
 	line-height: 50px;
 
 	display: inline-block;
-	opacity: 0.7;
-	padding:20px;
+	
+	padding-top: 45px;
+	padding-bottom:20px;
+	padding-left:25px;
+	padding-right:25px;
 	border-radius: 20px 20px 20px 20px;
 	background-size:
 	width: 50px;
@@ -195,20 +202,17 @@ right:100px;
 	background-color: white;
 
 }
-.address {
+
+.address{
 	
-display: inline-block;
-	opacity: 0.7;
-	padding:20px;
-	border-radius: 20px 20px 20px 20px;
-	background-size:
-	width: 50px;
-	background-color: white;
-	
-	height: 120px;
-	left:50vw;
-	transform: translateX(-50%);
+top:80vh;
+width:250px;
+padding:0;
+height:0;
+left:50vw;
+background-color: white;
 }
+
 
 h2 {font-family: asul;
 	color: rgb(106, 88, 69);
@@ -219,38 +223,21 @@ h2 {font-family: asul;
 }
 .address p {
 	text-align: center;
+	padding-top: 15px;
+	padding-bottom:20px;
+	padding-left:25px;
+	padding-right:25px;
 
 
 	}
 
-strong {
-	font-size:50px;
-	font-weight:normal;
-
-}	
-
-.addressrule {
-	
-	width:200px;
-	height:2px;
-	background-color: rgb(106, 88, 69);
-	z-index: 2;
-}
-
-
-.ticketsrule {
-	display: none;
-	
-}
 
 
 
 
 
-.texture {
-	top:100px;
-	opacity: 0.3;
-}
+
+
 
 
 
@@ -290,8 +277,8 @@ strong {
 
 .handdrawntype1 {
 	display: inline-block;
-	background-image: url("type3.svg");
-	opacity: 1.0;
+	background-image: url("the oh hellos type2.svg");
+	opacity: 0.8;
 	top:58px;
 	background-size: contain;
 	background-repeat: no-repeat;
@@ -303,13 +290,14 @@ strong {
 }
 
 .date {
-	display: inline;
-	top:-75vh;
-	left:0;
-	width:100vw;
-	height:100vh;
+	display: inline-block;
+	top:-70vh;
+	left: 50vw;
+	transform: translateX(-50%);
+	
 	opacity: 1.0;
 	position: relative;
+
 
 
 }
@@ -319,20 +307,23 @@ strong {
 
 .image {
 	display: inline-block;
-	background-image: url("image.png");
-	top: 50px;
+	background-image: url("image.png") no-repeat center center fixed;
+	
 	width:100vw;
-	height:50vh;
-	position: relative;
-	background-size:cover;
-	background-position:center bottom;
+	height:100vh;
+	background-size: cover;
+	background-repeat: no-repeat;
+	position:fixed;
+	
+	
+	
 
 }
 
 .mobile {
-	width: 100vw;
-	height: 100vw;
-	display: inline;
+	width: 35vw;
+	
+	display: inline-block;
 
 }
 
@@ -340,78 +331,72 @@ strong {
 
 
 .date h2 {
-	font-size:100px;
-	line-height: 90px;
+	
+	
 
 }
 .tickets {
-	display: none;
-}
-
-.ticketsrule{
 	display: inline-block;
-	top: -115vh;
-	
-	width:100vw;
-	height:5px;
-	background-color: rgb(106, 88, 69);
-	z-index: 2;
 	position: relative;
+	top: -23vh;
+	height: 80px;
+	transform: translateX(-50%);
+	left: 0vw;
+	right:0;
 }
 
-.ticketsrule2{
+.tickets h2 {
+		
+		font-size:50px;
+	
+	font-height:20px;
+	text-align: center;
+	line-height: 50px;
+
 	display: inline-block;
-	top: -80vh;
 	
-	width:100vw;
-	height:5px;
-	background-color: rgb(106, 88, 69);
-	z-index: 2;
-	position: relative;
+	padding-top: 15px;
+	padding-bottom:0px;
+	padding-left:25px;
+	padding-right:25px;
+	border-radius: 20px 20px 20px 20px;
+	background-size:
+	width: 0
 }
 
-.address{
+}
+
+
+
+
+
+}
+
+.address p {
+	background-color: white;
+	border-radius: 20px 20px 20px 20px;
+}
+
+
+
+.address {
 	
-	display: none;
+display: inline-block;
+	opacity: 0.7;
+	padding:20px;
+	border-radius: 20px 20px 20px 20px;
+	background-size:
+	width: 50px;
+	background-color: white;
+	height: 100px;
+	top: 60vh;
 
-
-	left:20px;
-	right: 0;
-	position: relative;
-}
-
-.address2 {
-	top: 155vh;
-	display: block;
-	padding: 0 30px 0 30px;
-}
-
-.address2 p {
-	font-size: 30px;
-
-}
-
-.addressrule {
 	
-	left:80px;
-	width:200px;
-	height:2px;
-	background-color: rgb(106, 88, 69);
-	z-index: 2;
-	display: center;
+	left:52vw;
+	transform: translateX(-50%);
 }
 
-.image { position: relative;
 
-}
-
-.tickets2 {
-	top:-75vh;
-	display: inline;
-	left:0;
-	position: relative;
-
-}
 
 h2 {
 	font-size:185px;
