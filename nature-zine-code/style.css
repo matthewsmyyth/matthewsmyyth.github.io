@@ -12,8 +12,15 @@ body { background-image: url(watercolor2.jpg);
 	
 
 }
-
-
+h3 {
+    font-family: Georgia, serif;
+    font-weight: 200;
+    font-size: 18px;
+    color: rgb(72, 80, 93);
+    margin-left: 19vw;
+    line-height: 22px;
+    padding-top: 0px;
+    margin-top: 0;}
 
 .title {
 	
@@ -47,17 +54,6 @@ h2 {
 .home h2 a {
 	
 	transition: all 1s ease-in-out;
-
-}
-h3 {
-	font-family: Georgia, serif;
-	font-weight: 200;
-	font-size: 18px;
-	color: rgb(72, 80, 93);
-	margin-left: 19vw;
-	line-height: 22px;
-	padding-top: 0px;
-	margin-top:0;
 
 }
 
@@ -532,7 +528,7 @@ h1 {
 
 
 
-@media(min-width: 550px) {
+@media(min-width: 500px) {
 	body {
 		width: 500px;
 		margin-left: auto;
@@ -546,13 +542,176 @@ h1 {
 
 	.top-section {
 		width: 500px;
+
 	}
 
 	.rule-after {
-	width: 500px;
+	width: 445px;
+margin-left:55px;
 	}
 
 	.rule-before {
-	width: 500px;
+	width: 425px;
 	}
+
+	h1 {
+	font-family: Georgia, serif;
+	font-weight: 400;
+	font-size: 55px;
+	color: rgb(219, 220, 220);
+	line-height: 2px;
+	width: 500px;
+	padding-top: 15vh;
+	text-align: center;
+	
+
+}
+
+p {
+	margin-left: 55px;
+	margin-right:90px;}
+	
+h2 {
+	font-family: Georgia, serif;
+	font-weight: 200;
+	font-size: 35px;
+	color: rgb(72, 80, 93);
+	margin-left: 55px;
+	margin-right:0;
+	margin-bottom:0;
+	
+	text-decoration-color: none;
+
+}
+h3 {
+	font-family: Georgia, serif;
+	font-weight: 200;
+	font-size: 18px;
+	color: rgb(72, 80, 93);
+	margin-left: 100px;
+	line-height: 22px;
+	padding-top: 0px;
+	margin-top:0;
+
+}
+
+.top-section {
+	
+	
+	height:50vh;
+	
+}
+.bottom-nav {padding: 0;
+	margin-top:2vh;
+	margin-bottom:2vh;
+	
+	text-decoration: none;
+	margin-left: 50px;
+	margin-right:50px;
+	width:500px}
+
+.joy-left-arrow {
+	background-image: url(joy-arrow-left.svg);
+	width: 50px;
+	height: 50px;
+	display: inline-block;
+
+}
+
+.joy-right-arrow {
+	background-image: url(joy-arrow-right.svg);
+	width: 50px;
+	height: 50px;
+	display: inline-block;
+	margin-left: 350px;
+
+}
+
+.joy-home-icon {
+	width: 50px;
+	height: 50px;
+	margin-left:150px;
+
+	
+
+}
+
+.home-icon-top {
+	width: 50px;
+	height: 50px;
+	margin-left:235px;
+	margin-top:1vh;
+	display: inline-block;
+	background-image: url(beauty-home.svg);
+	background-size: 100%, 100%;
+	background-repeat: no-repeat;
+	background-position: center center;
+	position: absolute;
+	display: inline-block;
+	
+
+}
+
+.left-icon-top {
+	width: 50px;
+	height: 50px;
+	margin-left:0px;
+	margin-top:1vh;
+	display: inline-block;
+	background-image: url(top-left.svg);
+	background-size: 100%, 100%;
+	background-repeat: no-repeat;
+	background-position: center center;
+	position: absolute;
+	display: inline-block;
+	
+
+}
+
+
+.right-icon-top {
+	width: 50px;
+	height: 50px;
+	margin-left:450px;
+	margin-top:1vh;
+	display: inline-block;
+	background-image: url(top-right.svg);
+	background-size: 100%, 100%;
+	background-repeat: no-repeat;
+	background-position: center center;
+	position: absolute;
+	display: inline-block;
+	
+
+}
+
+.top-rule {
+	
+	background-color:rgb(219, 220, 220);
+	width:500px;
+	height: 2px;
+	margin-top:11.5vh;
+	position: absolute;
+	
+	margin-right:10vw;
+	
+
+
+}
+.home-text h1 {
+	line-height: 55px;
+	font-size:45px;
+	padding-top:30px ;
+	color: rgb(219, 220, 220);
+}
+
+.home-arrow {
+	display: none;
+}
+
+.home {
+	margin-left:-60px;
+	text-align:center;
+}
+
 }*/
