@@ -4,7 +4,7 @@ html, body {
 
 }
 
-body { background-image: url(watercolor.jpg);
+body { background-image: url(watercolor2.jpg);
 
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -13,18 +13,7 @@ body { background-image: url(watercolor.jpg);
 
 }
 
-h1 {
-	font-family: Georgia, serif;
-	font-weight: 400;
-	font-size: 80px;
-	color: rgb(201, 168, 95);
-	line-height: 2px;
-	width: 100vw;
-	padding-top: 30vh;
-	text-align: center;
-	
 
-}
 
 .title {
 	
@@ -65,7 +54,7 @@ h3 {
 	font-weight: 200;
 	font-size: 18px;
 	color: rgb(72, 80, 93);
-	margin-left: 15vw;
+	margin-left: 19vw;
 	line-height: 22px;
 	padding-top: 0px;
 	margin-top:0;
@@ -106,7 +95,7 @@ p {font-family: Georgia, serif;
 
 
 
-}
+
 
 a {
 	text-decoration: none;
@@ -127,20 +116,20 @@ a {
 }
 
 .wonder-image {
-	 background-image: url(wonder1.JPG)
+	 background-image: url(wonder3.JPG)
 
 }
 
 .joy-image {
-	 background-image: url(joy1.JPG)
+	 background-image: url(joy2.JPG)
 }
 
 .lyricity-image {
-	background-image: url(lyricity1.JPG)
+	background-image: url(lyricity3.JPG)
 }
 
 .beauty-image {
-	background-image: url(beauty1.JPG)
+	background-image: url(beauty3.JPG)
 }
 
 .simplicity-image {
@@ -163,7 +152,7 @@ height: 10vw;
 background-size: cover;
 background-repeat: no-repeat;
 margin-left: 45vw;
-margin-top: 93vh;
+margin-top: 87vh;
 width:10vw;
 position: absolute;
 }
@@ -174,7 +163,7 @@ height: 10vw;
 background-size: cover;
 background-repeat: no-repeat;
 margin-left: 45vw;
-margin-top: 93vh;
+margin-top: 87vh;
 width:10vw;
 position: absolute;
 }
@@ -185,7 +174,7 @@ height: 10vw;
 background-size: cover;
 background-repeat: no-repeat;
 margin-left: 45vw;
-margin-top: 93vh;
+margin-top: 87vh;
 width:10vw;
 position: absolute;
 
@@ -204,7 +193,7 @@ position: absolute;
 	width: 10vw;
 	height: 10vw;
 	display: inline-block;
-	margin-left: 58vw;
+	margin-left: 55vw;
 
 }
 
@@ -236,7 +225,7 @@ position: absolute;
 	width: 10vw;
 	height: 10vw;
 	display: inline-block;
-	margin-left: 58vw;
+	margin-left: 55vw;
 
 }
 
@@ -268,7 +257,7 @@ position: absolute;
 	width: 10vw;
 	height: 10vw;
 	display: inline-block;
-	margin-left: 58vw;
+	margin-left: 55vw;
 
 }
 
@@ -301,11 +290,11 @@ position: absolute;
 	width: 10vw;
 	height: 10vw;
 	display: inline-block;
-	margin-left: 58vw;
+	margin-left: 55vw;
 
 }
 
-.simplicity-home-icon {
+.wonder-home-icon {
 	width: 10vw;
 	height: 10vw;
 	margin-left:25vw;
@@ -333,7 +322,7 @@ position: absolute;
 	width: 10vw;
 	height: 10vw;
 	display: inline-block;
-	margin-left: 58vw;
+	margin-left: 55vw;
 
 }
 
@@ -348,7 +337,9 @@ position: absolute;
 	background-position: center center;
 	position: absolute;
 	display: inline-block;
-	}
+	
+
+}
 
 
 
@@ -370,7 +361,7 @@ height: 10vw;
 background-size: cover;
 background-repeat: no-repeat;
 margin-left: 45vw;
-margin-top: 93vh;
+margin-top: 87vh;
 width:10vw;
 position: absolute;
 }
@@ -381,7 +372,7 @@ height: 10vw;
 background-size: cover;
 background-repeat: no-repeat;
 margin-left: 45vw;
-margin-top: 93vh;
+margin-top: 87vh;
 width:10vw;
 position: absolute;
 }
@@ -392,7 +383,7 @@ height: 10vw;
 background-size: cover;
 background-repeat: no-repeat;
 margin-left: 45vw;
-margin-top: 93vh;
+margin-top: 87vh;
 width:10vw;
 position: absolute;
 }
@@ -431,7 +422,7 @@ position: absolute;
 }
 
 .green {
-	background-color:rgb(41, 64, 40);
+	background-color:rgb(122, 131, 166);
 }
 
 .light-orange {
@@ -439,26 +430,38 @@ position: absolute;
 }
 
 .joy-text h1 {
-	color:rgb(27, 25, 36);
+	color:rgb(219, 220, 220);
 ;
 }	
 
+h1 {
+	font-family: Georgia, serif;
+	font-weight: 400;
+	font-size: 80px;
+	color: rgb(219, 220, 220);
+	line-height: 2px;
+	width: 100vw;
+	padding-top: 30vh;
+	text-align: center;
+	
+
+}
+
 .lyricity-text h1 {
-	color:rgb(255, 4, 116);
+	color:rgb(219, 220, 220);
 }
 
 .beauty-text h1 {
-	color:rgb(152, 244, 241);
+	color:rgb(219, 220, 220);
 }
 
 .simplicity-text h1 {
-	color:rgb(113, 221, 255);
-}
+	color:white;}
 
 
 .home-text h1 {
 	line-height: 55px;
-	font-size:50px;
+	font-size:45px;
 	padding-top:30px ;
 	color:rgb(33, 33, 84);
 }
@@ -476,7 +479,7 @@ position: absolute;
 
 
 
-/*@media(min-width: 550px) {
+@media(min-width: 550px) {
 	body {
 		width: 500px;
 		margin-left: auto;
