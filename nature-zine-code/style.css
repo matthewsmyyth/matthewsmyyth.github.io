@@ -38,7 +38,7 @@ h2 {
 }
 
 .home h2 a:hover {
-	color: red;
+	color: rgb(252, 248, 245);
 	transition: all .3s ease-in-out;
 
 
@@ -456,14 +456,15 @@ h1 {
 }
 
 .simplicity-text h1 {
-	color:white;}
+		color:rgb(219, 220, 220);
+}
 
 
 .home-text h1 {
 	line-height: 55px;
 	font-size:45px;
 	padding-top:30px ;
-	color:rgb(33, 33, 84);
+	color: rgb(34, 32, 45);
 }
 
 .home h2 {
