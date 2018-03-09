@@ -12,6 +12,20 @@ body { background-image: url(watercolor2.jpg);
 	
 
 }
+
+.home h3 {
+	font-family: Georgia, serif;
+	font-weight: 200;
+	font-size: 35px;
+	color: rgb(72, 80, 93);
+	margin-left: 10vw;
+	margin-bottom:2vh;
+	
+	
+	text-decoration-color: none;
+
+
+}
 h3 {
     font-family: Georgia, serif;
     font-weight: 200;
@@ -20,7 +34,7 @@ h3 {
     margin-left: 19vw;
     line-height: 22px;
     padding-top: 0px;
-    margin-top: 0;}
+  padding-bottom: 2vh;}
 
 .title {
 	
@@ -66,8 +80,8 @@ img {
 	
 	
 
-	padding-top: 6vh;
-	padding-bottom: 6vh;
+	padding-top: 2vh;
+	padding-bottom: 2vh;
 
 }
 
@@ -325,8 +339,8 @@ position: absolute;
 .home-icon-top {
 	width: 10vw;
 	height: 10vw;
-	margin-left:45vw;
-	margin-top:3vh;
+	margin-left:5vw;
+	margin-top:2vh;
 	display: inline-block;
 	background-image: url(beauty-home.svg);
 	background-size: 100%, 100%;
@@ -374,12 +388,12 @@ position: absolute;
 .top-rule {
 	
 	background-color:rgb(219, 220, 220);
-	width:90vw;
-	height: 2px;
-	margin-top:11.5vh;
+	
+	margin-top:9vh;
 	position: absolute;
 	
-	margin-right:10vw;
+	margin-right:80vw;
+	margin-left:0;
 	
 
 
@@ -440,16 +454,17 @@ position: absolute;
 }
 
 .rule-after {
-	background-color:rgb(201, 168, 95);
+	background-color:rgb(34, 32, 45);
 	width:90vw;
 	height: 2px;
 	margin: : 5px;
 	margin-left: 10vw;
 
+
 }
 
 .rule-before {
-	background-color:rgb(201, 168, 95);
+	background-color:rgb(34, 32, 45);
 	width:90vw;
 	height: 2px;
 	
@@ -489,6 +504,7 @@ h1 {
 	width: 100vw;
 	padding-top: 30vh;
 	text-align: center;
+	letter-spacing: 0.03em;
 	
 
 }
@@ -497,10 +513,12 @@ h1 {
 
 .lyricity-text h1 {
 	color:rgb(219, 220, 220);
+	letter-spacing: .05em;
 }
 
 .beauty-text h1 {
 	color:rgb(219, 220, 220);
+	letter-spacing: .03em;
 }
 
 .simplicity-text h1 {
