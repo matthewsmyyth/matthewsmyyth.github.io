@@ -1,14 +1,14 @@
 .background {
 	background-image: url(sand.png);
-	background-size: 100%;
+	
 	background-repeat: no-repeat;
 	background-position: center center;
-	width: 60vw;
+	width: 100vw;
 	height:100vh;
-	margin-right:20vw;
-	margin-left:20vw;
-	margin-top:0;
-	margin-bottom:0;
+	
+	margin:0;
+	z-index: -2;
+
 
 
 }
@@ -21,10 +21,10 @@
 	top: -40vh;
 	margin-left:77vw;
 	animation-name: shellsa;
-	animation-delay:150s;
 	animation-duration: 10s;
 	animation-fill-mode: forwards;
 	animation-timing-function: ease-in-out;
+
 	
 	
 	
@@ -39,7 +39,7 @@
 	top: -40vh;
 	margin-left:83vw;
 	animation-name: shellsa;
-	animation-delay: 160s;
+	animation-delay: 10s;
 	animation-duration: 10s;
 	animation-fill-mode: forwards;
 	animation-timing-function: ease-in-out;
@@ -56,7 +56,7 @@
 	top: -40vh;
 	margin-left:88vw;
 	animation-name: shellsa;
-	animation-delay: 170s;
+	animation-delay:20s;
 	animation-duration: 10s;
 	animation-fill-mode: forwards;
 	animation-timing-function: ease-in-out;
@@ -72,7 +72,7 @@ background-image: url(shell4.png);
 	top: -40vh;
 	margin-left:77vw;
 	animation-name: shellsb;
-	animation-delay: 180s;
+	animation-delay: 30s;
 	animation-duration: 10s;
 	animation-fill-mode: forwards;
 	animation-timing-function: ease-in-out;
@@ -90,7 +90,7 @@ background-image: url(shell4.png);
 	top: -40vh;
 	margin-left:80vw;
 	animation-name: shellsb;
-	animation-delay: 190s;
+	animation-delay: 40s;
 	animation-duration: 10s;
 	animation-fill-mode: forwards;
 	animation-timing-function: ease-in-out;
@@ -110,7 +110,7 @@ background-image: url(shell4.png);
 	top: -40vh;
 	margin-left:90vw;
 	animation-name: shellsb;
-	animation-delay: 200s;
+	animation-delay: 50s;
 	animation-duration: 10s;
 	animation-fill-mode: forwards;
 	animation-timing-function: ease-in-out;
@@ -125,7 +125,7 @@ background-image: url(shell4.png);
 	top: -40vh;
 	margin-left:77vw;
 	animation-name: shellsc;
-	animation-delay: 210s;
+	animation-delay:60s;
 	animation-duration: 10s;
 	animation-fill-mode: forwards;
 	animation-timing-function: ease-in-out;
@@ -143,7 +143,7 @@ background-size:cover;
 	top: -40vh;
 	margin-left:84vw;
 	animation-name: shellsc;
-	animation-delay: 220s;
+	animation-delay: 70s;
 	animation-duration: 10s;
 	animation-fill-mode: forwards;
 	animation-timing-function: ease-in-out;
@@ -161,7 +161,7 @@ background-size:cover;
 	top: -40vh;
 	margin-left:88vw;
 	animation-name: shellsc;
-	animation-delay: 230s;
+	animation-delay: 80s;
 	animation-duration: 10s;
 	animation-fill-mode: forwards;
 	animation-timing-function: ease-in-out;
@@ -178,7 +178,7 @@ background-size:cover;
 	top: -40vh;
 	margin-left:77vw;
 	animation-name: shellsd;
-	animation-delay: 240s;
+	animation-delay: 90s;
 	animation-duration: 10s;
 	animation-fill-mode: forwards;
 	animation-timing-function: ease-in-out;
@@ -196,7 +196,7 @@ background-size:cover;
 	top: -40vh;
 	margin-left:80vw;
 	animation-name: shellsd;
-	animation-delay: 250s;
+	animation-delay: 100s;
 	animation-duration: 10s;
 	animation-fill-mode: forwards;
 	animation-timing-function: ease-in-out;
@@ -212,7 +212,7 @@ background-size:cover;
 	top: -40vh;
 	margin-left:89vw;
 	animation-name: shellsd;
-	animation-delay: 260s;
+	animation-delay: 110s;
 	animation-duration: 10s;
 	animation-fill-mode: forwards;
 	animation-timing-function: ease-in-out;
@@ -227,7 +227,7 @@ background-size:cover;
 	top: -40vh;
 	margin-left:77vw;
 	animation-name: shellse;
-	animation-delay: 270s;
+	animation-delay: 120s;
 	animation-duration: 10s;
 	animation-fill-mode: forwards;
 	animation-timing-function: ease-in-out;
@@ -242,7 +242,7 @@ width: 15vw;
 	top: -40vh;
 	margin-left:84vw;
 	animation-name: shellse;
-	animation-delay: 280s;
+	animation-delay: 130s;
 	animation-duration: 10s;
 	animation-fill-mode: forwards;
 	animation-timing-function: ease-in-out;
@@ -258,258 +258,6 @@ width: 15vw;
 	top: -40vh;
 	margin-left:88vw;
 	animation-name: shellse;
-	animation-delay: 290s;
-	animation-duration: 10s;
-	animation-fill-mode: forwards;
-	animation-timing-function: ease-in-out;
-
-}
-
-.shell1 {
-	background-image: url(shell1.png);
-	background-size:cover;
-	width: 15vw;
-	height: 15vw;
-	position:absolute;
-	top: -40vh;
-	margin-left:-2.8vw;
-	animation-name: shellsa;
-	animation-duration: 10s;
-	animation-fill-mode: forwards;
-	animation-timing-function: ease-in-out;
-	
-	
-	
-}
-
-.shell2 {
-	background-image: url(shell2.png);
-	background-size:cover;
-	width: 15vw;
-	height: 15vw;
-	position:absolute;
-	top: -40vh;
-	margin-left:2vw;
-	animation-name: shellsa;
-	animation-delay: 10s;
-	animation-duration: 10s;
-	animation-fill-mode: forwards;
-	animation-timing-function: ease-in-out;
-	
-	
-}
-
-.shell3 {
-	background-image: url(shell3.png);
-	background-size:cover;
-	width: 15vw;
-	height: 15vw;
-	position:absolute;
-	top: -40vh;
-	margin-left:8vw;
-	animation-name: shellsa;
-	animation-delay: 20s;
-	animation-duration: 10s;
-	animation-fill-mode: forwards;
-	animation-timing-function: ease-in-out;
-	
-}
-
-.shell4 {
-background-image: url(shell4.png);
-	background-size:cover;
-	width: 15vw;
-	height: 15vw;
-	position:absolute;
-	top: -40vh;
-	margin-left:-3vw;
-	animation-name: shellsb;
-	animation-delay: 30s;
-	animation-duration: 10s;
-	animation-fill-mode: forwards;
-	animation-timing-function: ease-in-out;
-	
-	
-	
-}
-
-.shell5 {
-	background-image: url(shell5.png);
-	background-size:cover;
-	width: 15vw;
-	height: 15vw;
-	position:absolute;
-	top: -40vh;
-	margin-left:2vw;
-	animation-name: shellsb;
-	animation-delay: 40s;
-	animation-duration: 10s;
-	animation-fill-mode: forwards;
-	animation-timing-function: ease-in-out;
-
-	
-	
-}
-
-
-
-.shell6 {
-	background-image: url(shell6.png);
-	background-size:cover;
-	width: 15vw;
-	height: 15vw;
-	position:absolute;
-	top: -40vh;
-	margin-left:11vw;
-	animation-name: shellsb;
-	animation-delay: 50s;
-	animation-duration: 10s;
-	animation-fill-mode: forwards;
-	animation-timing-function: ease-in-out;
-	}
-
-.shell7 {
-	background-image: url(shell1.png);
-	background-size:cover;
-		width: 15vw;
-	height: 15vw;
-	position:absolute;
-	top: -40vh;
-	margin-left:-3.8vw;
-	animation-name: shellsc;
-	animation-delay: 60s;
-	animation-duration: 10s;
-	animation-fill-mode: forwards;
-	animation-timing-function: ease-in-out;
-	
-	
-	
-}
-
-.shell8 {
-	background-image: url(shell2.png);
-background-size:cover;
-		width: 15vw;
-	height: 15vw;
-	position:absolute;
-	top: -40vh;
-	margin-left:2vw;
-	animation-name: shellsc;
-	animation-delay: 70s;
-	animation-duration: 10s;
-	animation-fill-mode: forwards;
-	animation-timing-function: ease-in-out;
-	
-	
-	
-}
-
-.shell9 {
-	background-image: url(shell3.png);
-	background-size:cover;
-		width: 15vw;
-	height: 15vw;
-	position:absolute;
-	top: -40vh;
-	margin-left:8vw;
-	animation-name: shellsc;
-	animation-delay: 80s;
-	animation-duration: 10s;
-	animation-fill-mode: forwards;
-	animation-timing-function: ease-in-out;
-	
-	
-}
-
-.shell10 {
-	background-image: url(shell4.png);
-	background-size:cover;
-		width: 15vw;
-	height: 15vw;
-	position:absolute;
-	top: -40vh;
-	margin-left:-2.5vw;
-	animation-name: shellsd;
-	animation-delay: 90s;
-	animation-duration: 10s;
-	animation-fill-mode: forwards;
-	animation-timing-function: ease-in-out;
-	
-}
-
-
-
-.shell11 {
-	background-image: url(shell5.png);
-		background-size:cover;
-		width: 15vw;
-	height: 15vw;
-	position:absolute;
-	top: -40vh;
-	margin-left:3vw;
-	animation-name: shellsd;
-	animation-delay: 100s;
-	animation-duration: 10s;
-	animation-fill-mode: forwards;
-	animation-timing-function: ease-in-out;
-	
-}
-
-.shell12 {
-	background-image: url(shell6.png);
-	background-size:cover;
-		width: 15vw;
-	height: 15vw;
-	position:absolute;
-	top: -40vh;
-	margin-left:9vw;
-	animation-name: shellsd;
-	animation-delay: 110s;
-	animation-duration: 10s;
-	animation-fill-mode: forwards;
-	animation-timing-function: ease-in-out;
-}
-
-.shell13 {
-	background-image: url(shell1.png);
-	background-size:cover;
-	width: 15vw;
-	height: 15vw;
-	position:absolute;
-	top: -40vh;
-	margin-left:-3.2vw;
-	animation-name: shellse;
-	animation-delay: 120s;
-	animation-duration: 10s;
-	animation-fill-mode: forwards;
-	animation-timing-function: ease-in-out;
-	
-}
-.shell14 {
-	background-image: url(shell2.png);
-	background-size:cover;
-width: 15vw;
-	height: 15vw;
-	position:absolute;
-	top: -40vh;
-	margin-left:3vw;
-	animation-name: shellse;
-	animation-delay: 130s;
-	animation-duration: 10s;
-	animation-fill-mode: forwards;
-	animation-timing-function: ease-in-out;
-
-}
-
-.shell15 {
-	background-image: url(shell3.png);
-	background-size:cover;
-width: 15vw;
-	height: 15vw;
-	position:absolute;
-	top: -40vh;
-	margin-left:8vw;
-	animation-name: shellse;
 	animation-delay: 140s;
 	animation-duration: 10s;
 	animation-fill-mode: forwards;
@@ -519,27 +267,37 @@ width: 15vw;
 
 
 
+
 body {
 	margin: 0;
-	background-color: rgb(250,220,10);
+	background-image:url(sand.png);
+	background-size:cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	width: 100vw;
+	height:100vh;
+	
+	margin:0;
 }
 
-.wave1 {
+.wave {
 	background-image: ;
-width:60vw;
+width:100vw;
 	height:100vh;
+	margin: 0;
 	
 	background-repeat: no-repeat;
 	background-size:100%;
 	animation-name: waves;
-	animation-duration: 300s;
+	animation-duration: 100s;
 	animation-iteration-count: infinite;
 	display: inline-block;
+	z-index: 0;
 
 }
 
 .footprints {
-	margin-right:20vw;
+	margin-right:23vw;
 	opacity: 0.6;
 	top:0;
 	bottom:1vh;
@@ -551,327 +309,44 @@ width:10vw;
 	background-repeat: no-repeat;
 	background-size:100%;
 	animation-name: feet;
-	animation-duration: 60s;
+	animation-duration: 2s;
 	animation-iteration-count: infinite;
 	display: inline-block;
 	position: absolute;
+	z-index: 0;
 }
 
+@keyframes waves{
+	0% {background-image:url(sand.png);}
 
-@keyframes waves {
-0%{
-	background-image: url(sand.png)}
+	8.3%{background-image:url(wave1.png);}
 
-1.5% {
-	background-image: url(wave1.png)}
+	16.6%{background-image:url(wave2.png);}
 
-3% {
+	24.9%{background-image:url(wave3.png);}
 
-	background-image: url(wave2.png);
-	}
+	33.2%{background-image:url(wave4.png);}
 
-4.5%
-{
+	41.5%{background-image:url(wave5.png);}
 
-	background-image: url(wave3.png);
-	}
-6%
-{
+	49.8%{background-image:url(wave6.png);}
 
-	background-image: url(wave4.png);
-	}
-7.5%
-{
+	58.1%{background-image:url(wave7.png);}
 
-	background-image: url(wave4.png);
-	}
-9%
-{
+	64.4%{background-image:url(wave8.png);}
 
-	background-image: url(wave5.png);
-	}
-10.5%
-{
+	72.7%{background-image:url(wave9.png);}
 
-	background-image: url(wave6.png);
-	}
-12%
-{
+	81%{background-image:url(wave10.png);}
 
-	background-image: url(wave7.png);
-	}
-13.5%
-{
+	89.3%{background-image:url(wave11.png);}
 
-	background-image: url(wave8.png);
-	}
-15%
-{
-
-	background-image: url(wave9.png);
-	}
-16.5%
-{
-
-	background-image: url(wave10.png);
-	}
-18%
-{
-
-	background-image: url(wave11.png);
-	}
-19.5%
-{
-
-	background-image: url(wave12.png);
-	}
-21%
-{
-
-	background-image: url(wave13.png);
-	}
-22.5%
-{
-
-	background-image: url(wave14.png);
-	}
-24%
-{
-
-	background-image: url(wave15.png);
-	}
-25.5%
-{
-
-	background-image: url(wave16.png);
-	}
-27%
-{
-
-	background-image: url(wave17.png);
-	}
-28.5%
-{
-
-	background-image: url(wave18.png);
-	}
-30%
-{
-
-	background-image: url(wave19.png);
-	}
-31.5%
-{
-
-	background-image: url(wave20.png);
-	}
-33%
-{
-
-	background-image: url(wave21.png);
-	}
-34.5%
-{
-
-	background-image: url(wave22.png);
-	}
-36%
-{
-
-	background-image: url(wave23.png);
-	}
-37.5%
-{
-
-	background-image: url(wave24.png);
-	}
-39%
-{
-
-	background-image: url(wave25.png);
-	}
-40.5%
-{
-
-	background-image: url(wave26.png);
-	}
-42%
-{
-
-	background-image: url(wave27.png);
-	}
-43.5%
-{
-
-	background-image: url(wave28.png);
-	}
-45%
-{
-
-	background-image: url(wave29.png);
-	}
-46.5%
-{
-
-	background-image: url(wave30.png);
-	}
-48%
-{
-
-	background-image: url(wave31.png);
-	}
-50.5%
-{
-
-	background-image: url(wave32.png);
-	}
-52%
-{
-
-	background-image: url(wave33.png);
-	}
-53.5%
-{
-
-	background-image: url(wave34.png);
-	}
-55%
-{
-
-	background-image: url(wave35.png);
-	}
-56.5%
-{
-
-	background-image: url(wave36.png);
-	}
-58%
-{
-
-	background-image: url(wave37.png);
-	}
-59.5%
-{
-
-	background-image: url(wave38.png);
-	}
-61%
-{
-
-	background-image: url(wave39.png);
-	}
-62.5%
-{
-
-	background-image: url(wave40.png);
-	}
-64%
-{
-
-	background-image: url(wave41.png);
-	}
-
-65.5%
-{
-
-	background-image: url(wave42.png);
-	}
-67%
-{
-
-	background-image: url(wave43.png);
-	}
-68.5%
-{
-
-	background-image: url(wave44.png);
-	}
-70%
-{
-
-	background-image: url(wave45.png);
-	}
-71.5%
-{
-
-	background-image: url(wave46.png);
-	}
-73%
-{
-
-	background-image: url(wave47.png);
-	}
-74.5%
-{
-
-	background-image: url(wave48.png);
-	}
-76%
-{
-
-	background-image: url(wave49.png);
-	}
-80%
-{
-
-	background-image: url(wave50.png);
-	}
-82%
-{
-
-	background-image: url(wave51.png);
-	}
-84%
-{
-
-	background-image: url(wave52.png);
-	}
-86%
-{
-
-	background-image: url(wave53.png);
-	}
-88%
-{
-
-	background-image: url(wave54.png);
-	}
-90%
-{
-
-	background-image: url(wave54.png);
-	}
-92%
-{
-
-	background-image: url(wave55.png);
-	}
-94%
-{
-
-	background-image: url(wave56.png);
-	}
-96%
-{
-
-	background-image: url(wave58.png);
-	}
-98%
-{
-
-	background-image: url(wave59.png);
-	}
-100%
-{
-
-	background-image: url(wave60.png);
-	}
-
-
+	100%{background-image:url(wave12.png);}
 
 
 
 }
+
 
 
 
