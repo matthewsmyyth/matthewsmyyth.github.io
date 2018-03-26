@@ -1,7 +1,34 @@
 $(document).ready(function() {
-  setInterval(function() {
-  	var minutes = time.getMinutes();
-    var seconds = time.getSeconds();
-     $(".").css("width", seconds+"vw");
-  }, 1000);
+  
+  setTimeout(function(){
+  	
+  	$(".alarm-waves").addClass("alarming");
+  
+  	$("body").addClass("alarming");},15000);
+
+
+ setTimeout(function(){
+  	
+  	$(".alarming-bg").addClass("switchwaves");
+  
+  	$("body").addClass("switchwaves");},18000);
+
+  
+setTimeout(function(){
+  	
+  	$(".surfs-up").addClass("surf-text");
+  
+  	$("body").addClass("switchwaves");},18000);
+
+
+
+
+  $(".surfs-up").click(function(){
+  $(".surfs-up").removeClass("surf-text ")
+  $(".alarming-bg").removeClass("switchwaves");
+  $(".alarming").addClass("alarm-waves");
+  })
+
+  
+
 });

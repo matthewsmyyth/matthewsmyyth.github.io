@@ -5,9 +5,9 @@
 	background-position: center center;
 	width: 100vw;
 	height:100vh;
-	
+	display: inline-block;
 	margin:0;
-	z-index: -2;
+	z-index: -20;
 
 
 
@@ -21,13 +21,9 @@
 	top: -40vh;
 	margin-left:77vw;
 	animation-name: shellsa;
-	animation-duration: 10s;
-	animation-fill-mode: forwards;
-	animation-timing-function: ease-in-out;
-
-	
-	
-	
+	animation-duration: 300s;
+	animation-iteration-count: infinite;
+	position: absolute;
 }
 
 .shell2r {
@@ -38,11 +34,11 @@
 	position:absolute;
 	top: -40vh;
 	margin-left:83vw;
-	animation-name: shellsa;
-	animation-delay: 10s;
-	animation-duration: 10s;
-	animation-fill-mode: forwards;
-	animation-timing-function: ease-in-out;
+	animation-name: shellsb;
+	
+	animation-duration: 300s;
+	
+	animation-iteration-count: infinite;
 	
 	
 }
@@ -55,11 +51,12 @@
 	position:absolute;
 	top: -40vh;
 	margin-left:88vw;
-	animation-name: shellsa;
-	animation-delay:20s;
-	animation-duration: 10s;
-	animation-fill-mode: forwards;
-	animation-timing-function: ease-in-out;
+	animation-name: shellsc;
+	
+	animation-duration:300s;
+	
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
 	
 }
 
@@ -71,11 +68,11 @@ background-image: url(shell4.png);
 	position:absolute;
 	top: -40vh;
 	margin-left:77vw;
-	animation-name: shellsb;
-	animation-delay: 30s;
-	animation-duration: 10s;
-	animation-fill-mode: forwards;
-	animation-timing-function: ease-in-out;
+	animation-name: shellsd;
+	animation-delay: ;
+	animation-duration: 300s;
+	
+	animation-iteration-count: infinite;
 	
 	
 	
@@ -89,12 +86,11 @@ background-image: url(shell4.png);
 	position:absolute;
 	top: -40vh;
 	margin-left:80vw;
-	animation-name: shellsb;
-	animation-delay: 40s;
-	animation-duration: 10s;
-	animation-fill-mode: forwards;
-	animation-timing-function: ease-in-out;
+	animation-name: shellse;
+	
+	animation-duration: 300s;
 
+	animation-iteration-count: infinite;
 	
 	
 }
@@ -109,11 +105,11 @@ background-image: url(shell4.png);
 	position:absolute;
 	top: -40vh;
 	margin-left:90vw;
-	animation-name: shellsb;
-	animation-delay: 50s;
-	animation-duration: 10s;
-	animation-fill-mode: forwards;
-	animation-timing-function: ease-in-out;
+	animation-name: shellsf;
+	
+	animation-duration: 300s;
+
+	animation-iteration-count: infinite;
 	}
 
 .shell7r {
@@ -124,12 +120,11 @@ background-image: url(shell4.png);
 	position:absolute;
 	top: -40vh;
 	margin-left:77vw;
-	animation-name: shellsc;
-	animation-delay:60s;
-	animation-duration: 10s;
-	animation-fill-mode: forwards;
-	animation-timing-function: ease-in-out;
+	animation-name: shellsg;
 	
+	animation-duration: 300s;
+	
+animation-iteration-count: infinite;
 	
 	
 }
@@ -142,12 +137,11 @@ background-size:cover;
 	position:absolute;
 	top: -40vh;
 	margin-left:84vw;
-	animation-name: shellsc;
-	animation-delay: 70s;
-	animation-duration: 10s;
-	animation-fill-mode: forwards;
-	animation-timing-function: ease-in-out;
+	animation-name: shellsh;
 	
+	animation-duration: 300s;
+	
+	animation-iteration-count: infinite;
 	
 	
 }
@@ -160,29 +154,25 @@ background-size:cover;
 	position:absolute;
 	top: -40vh;
 	margin-left:88vw;
-	animation-name: shellsc;
-	animation-delay: 80s;
-	animation-duration: 10s;
-	animation-fill-mode: forwards;
-	animation-timing-function: ease-in-out;
+	animation-name: shellsi;
+
+	animation-duration: 300s;
 	
+	animation-iteration-count: infinite;
 	
 }
 
 .shell10r {
 	background-image: url(shell4.png);
 	background-size:cover;
-		width: 15vw;
-	height: 15vw;
+	width:15vw;
+	height:15vw;
 	position:absolute;
-	top: -40vh;
+	top:-40vh;
 	margin-left:77vw;
-	animation-name: shellsd;
-	animation-delay: 90s;
-	animation-duration: 10s;
-	animation-fill-mode: forwards;
-	animation-timing-function: ease-in-out;
-	
+	animation-name: shellsj;
+	animation-duration: 300s;
+	animation-iteration-count: infinite;
 }
 
 
@@ -195,12 +185,11 @@ background-size:cover;
 	position:absolute;
 	top: -40vh;
 	margin-left:80vw;
-	animation-name: shellsd;
-	animation-delay: 100s;
-	animation-duration: 10s;
-	animation-fill-mode: forwards;
-	animation-timing-function: ease-in-out;
+	animation-name: shellsk;
 	
+	animation-duration: 300s;
+	
+	animation-iteration-count: infinite;
 }
 
 .shell12r {
@@ -211,11 +200,11 @@ background-size:cover;
 	position:absolute;
 	top: -40vh;
 	margin-left:89vw;
-	animation-name: shellsd;
-	animation-delay: 110s;
-	animation-duration: 10s;
-	animation-fill-mode: forwards;
-	animation-timing-function: ease-in-out;
+	animation-name: shellsl;
+	
+	animation-duration: 300s;
+	
+	animation-iteration-count: infinite;
 }
 
 .shell13r {
@@ -226,11 +215,11 @@ background-size:cover;
 	position:absolute;
 	top: -40vh;
 	margin-left:77vw;
-	animation-name: shellse;
-	animation-delay: 120s;
-	animation-duration: 10s;
-	animation-fill-mode: forwards;
-	animation-timing-function: ease-in-out;
+	animation-name: shellsm;
+	
+	animation-duration: 300s;
+
+	animation-iteration-count: infinite;
 	
 }
 .shell14r {
@@ -241,11 +230,14 @@ width: 15vw;
 	position:absolute;
 	top: -40vh;
 	margin-left:84vw;
-	animation-name: shellse;
-	animation-delay: 130s;
-	animation-duration: 10s;
-	animation-fill-mode: forwards;
-	animation-timing-function: ease-in-out;
+	animation-name: shellsn;
+	
+	animation-duration: 300s;
+	
+
+	
+	animation-iteration-count: infinite;
+	
 
 }
 
@@ -257,11 +249,13 @@ width: 15vw;
 	position:absolute;
 	top: -40vh;
 	margin-left:88vw;
-	animation-name: shellse;
-	animation-delay: 140s;
-	animation-duration: 10s;
-	animation-fill-mode: forwards;
-	animation-timing-function: ease-in-out;
+	animation-name: shellso;
+	
+	animation-duration: 300s;
+	
+	animation-iteration-count: infinite;
+	
+	
 
 }
 
@@ -281,7 +275,7 @@ body {
 }
 
 .wave {
-	background-image: ;
+	background-image:url(wave1.png) ;
 width:100vw;
 	height:100vh;
 	margin: 0;
@@ -289,10 +283,11 @@ width:100vw;
 	background-repeat: no-repeat;
 	background-size:100%;
 	animation-name: waves;
-	animation-duration: 100s;
+	animation-duration: 600s;
 	animation-iteration-count: infinite;
 	display: inline-block;
-	z-index: 0;
+	z-index: 5;
+	position: absolute;
 
 }
 
@@ -309,12 +304,115 @@ width:10vw;
 	background-repeat: no-repeat;
 	background-size:100%;
 	animation-name: feet;
-	animation-duration: 2s;
+	animation-duration: 10s;
 	animation-iteration-count: infinite;
 	display: inline-block;
 	position: absolute;
-	z-index: 0;
+	z-index: 10;
 }
+
+.shellcontainer {
+	width: 100vw;
+	height:100vh;
+	top:0vh;
+	margin:0;
+	padding:0;
+	animation-name: shellcontainer;
+	
+	animation-duration: 300s;
+	
+	
+	animation-iteration-count: infinite;
+	display: inline-block;
+	position: absolute;
+	z-index: 30;
+
+
+
+
+}
+
+
+.alarm-waves {
+	width: 100vw;
+	height:100vh;
+	top:0vh;
+	margin:0;
+	padding:0;
+display: inline-block;
+	position: absolute;
+	z-index: 30;
+}
+
+.alarming {
+  
+  animation-name: alarmwaves;
+  animation-duration:3s;
+  animation-iteration-count: 1;
+  z-index: 50;
+  
+
+}
+
+.alarming-bg {
+		width: 100vw;
+	height:100vh;
+	top:0vh;
+	margin:0;
+	padding:0;
+display: inline-block;
+	position: absolute;
+	z-index: 30;
+}
+
+.surfs-up {
+		width: 65vw;
+	height:55vh;
+	right: 15vw;
+	left:15vw;
+	margin:5vw;
+	padding:0;
+display: inline-block;
+	position: absolute;
+	z-index: 30;
+}
+
+
+  .switchwaves {
+
+  	height:100vh;
+  	width:100vw;
+
+
+  animation-name: switchwaves;
+  animation-duration:5s;
+  animation-iteration-count: infinite;
+  z-index: 50;
+  animation-fill-mode: reverse;
+  animation-timing-function: ease-in-out;
+ 
+
+}
+
+
+ .surf-text {
+
+width: 85vw;
+	height:75vh;
+  animation-name: surfsup;
+  animation-duration:5s;
+  right: 17.5vw;
+	left:2.5vw;
+  animation-iteration-count: infinite;
+  z-index: 50;
+  animation-fill-mode: reverse;
+  animation-timing-function: ease-in-out;
+  background-repeat: no-repeat;
+	background-position: center center;
+ 
+
+}
+
 
 @keyframes waves{
 	0% {background-image:url(sand.png);}
@@ -347,8 +445,41 @@ width:10vw;
 
 }
 
+@keyframes alarmwaves{
+	0% {background-image:url(alarm1.png);}
+
+	25%{background-image:url(alarm2.png);}
+
+	50%{background-image:url(alarm3.png);}
+
+	75%{background-image:url(alarm4.png);}
+
+	100%{background-image:url(alarm5.png);}
 
 
+
+
+}
+
+@keyframes switchwaves{
+	0% {background-image:url(alarm5.png);}
+	50%{background-image:url(alarm4.png);}
+	100%{background-image:url(alarm5.png);}
+
+
+
+
+}
+
+@keyframes surfsup{
+	0% {background-image:url(surfsup5.svg);}
+	50%{background-image:url(surfsup4.svg);}
+	100%{background-image:url(surfsup5.svg);}
+
+
+
+
+}
 
 
 
@@ -377,50 +508,254 @@ width:10vw;
 
 }
 
+@keyframes shellcontainer {
+	0% {
+		top:0;
+	}
+98% {
+	top:0;
+}
 
+99.9% {top:200vh}
+
+100%{top:200vh;
+
+}
+
+}
 
 
 @keyframes shellsa {
  0% {
-   top:-20vh;
+   top:-40vh;
+  }
+  1% {
+    top: 75vh;
   }
   100% {
-    top: 75vh;
+  	top:75vh;
   }
 }
 
 @keyframes shellsb {
  0% {
-   top:-20vh;
+   top:-40vh;
+  }
+  5% {
+  	top:-40vh;
+  }
+  7% {
+    top: 75vh;
   }
   100% {
-    top: 54vh;
+  	top:75vh;
   }
 }
 
 @keyframes shellsc {
  0% {
-   top:-20vh;
+   top:-40vh;
+  }
+
+  12% {top:-40vh;}
+  14% {
+    top: 75vh;
   }
   100% {
-    top: 33vh;
+  	top:75vh;
   }
 }
 
 @keyframes shellsd {
  0% {
-   top:-20vh;
+   top:-40vh;
   }
-  100% {
-    top: 13vh;
+   19% {
+   top:-40vh;
   }
+  21% {
+    top: 54vh;
+}
+  98%{top:54vh;
+
+  	}
 }
 
 @keyframes shellse {
  0% {
-   top:-20vh;
+   top:-40vh;
   }
+  26% {
+   top:-40vh;
+  }
+  28% {
+    top: 54vh;
+}
+  98%{top:54vh;
+
+  	}
+}
+
+@keyframes shellsf {
+ 0% {
+   top:-40vh;
+  }
+   33% {
+   top:-40vh;
+  
+  }
+  35% {
+    top:54vh;
+}
+  98%{top:54vh;
+
+  	}
+}
+
+
+@keyframes shellsg{
+ 0% {
+   top:-40vh;
+  }
+
+  39% {
+   top:-40vh;
+  }
+
+ 42% {
+    top:33vh;}
+
+  100%{top:33vh;}
+  
+}
+
+@keyframes shellsh{
+ 0% {
+   top:-40vh;
+  }
+
+  47% {
+   top:-40vh;
+  }
+
+  49% {
+    top:33vh;}
+
+  100%{top:33vh;}
+  
+}
+
+
+@keyframes shellsi{
+ 0% {
+   top:-40vh;
+  }
+
+  54% {
+   top:-40vh;
+  }
+
+  56% {
+    top:33vh;}
+
+  100%{top:33vh;}
+  
+}
+
+@keyframes shellsj {
+0% {
+   top:-40vh;
+  }
+
+  61% {
+   top:-40vh;}
+
+  63% {top:13vh;}
+
   100% {
-    top: -7vh;
+    top:13vh;
+  }
+}
+
+@keyframes shellsk {
+0% {
+   top:-40vh;
+  }
+
+  68% {
+   top:-40vh;
+  }
+
+ 70%{top:13vh;}
+
+  100% {
+    top:13vh;
+  }
+}
+
+@keyframes shellsl {
+0% {
+   top:-40vh;
+  }
+
+  75% {
+   top:-40vh;
+  }
+
+  77%{top:13vh;}
+
+  100% {
+    top:13vh;
+  }
+}
+
+@keyframes shellsm{
+0% {
+   top:-40vh;
+  }
+
+  82% {
+   top:-40vh;
+  }
+ 84% {
+    top:-7vh;
+}
+
+  100% {
+    top:-7vh;
+  }
+}
+
+@keyframes shellsn{
+0% {
+   top:-40vh;
+  }
+
+  89% {
+   top:-40vh;
+  }
+ 91% {
+    top:-7vh;
+}
+
+  100% {
+    top:-7vh;
+  }
+}
+
+@keyframes shellso{
+0% {
+   top:-40vh;
+  }
+
+  96% {
+   top:-40vh;
+  }
+ 98% {
+    top:-7vh;
+}
+
+  100% {
+    top:-7vh;
   }
 }
