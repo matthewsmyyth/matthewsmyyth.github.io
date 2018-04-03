@@ -264,7 +264,7 @@ width: 15vw;
 
 body {
 	margin: 0;
-	background-image:url(sand.png);
+	background-image:url();
 	background-size:cover;
 	background-repeat: no-repeat;
 	background-position: center center;
@@ -279,14 +279,15 @@ body {
 width:100vw;
 	height:100vh;
 	margin: 0;
+	top:0;
 	
 	background-repeat: no-repeat;
-	background-size:100%;
+	background-size:cover;
 	animation-name: waves;
-	animation-duration: 600s;
+	animation-duration: 200s;
 	animation-iteration-count: infinite;
 	display: inline-block;
-	z-index: 5;
+	z-index: 50;
 	position: absolute;
 
 }
@@ -308,7 +309,7 @@ width:10vw;
 	animation-iteration-count: infinite;
 	display: inline-block;
 	position: absolute;
-	z-index: 10;
+	z-index: 0;
 }
 
 .shellcontainer {
@@ -377,6 +378,20 @@ display: inline-block;
 	z-index: 30;
 }
 
+.high-tideone {
+		width: 65vw;
+	height:55vh;
+	right: 30vw;
+	left:15vw;
+	margin:5vw;
+	padding:0;
+display: inline-block;
+	position: absolute;
+	z-index: 30;
+	top:34vh;
+}
+
+
 
   .switchwaves {
 
@@ -409,13 +424,34 @@ width: 85vw;
   animation-timing-function: ease-in-out;
   background-repeat: no-repeat;
 	background-position: center center;
+	
+ 
+
+}
+
+ .high-tidetwo {
+
+width: 85vw;
+	height:75vh;
+  animation-name: hightide;
+
+  animation-duration:5s;
+  right: 17.5vw;
+	left:2.5vw;
+  animation-iteration-count: infinite;
+  z-index: 50;
+  animation-fill-mode: reverse;
+  animation-timing-function: ease-in-out;
+  background-repeat: no-repeat;
+	background-position: center center;
+	cursor:pointer;
  
 
 }
 
 
 @keyframes waves{
-	0% {background-image:url(sand.png);}
+	0% {background-image:url(wave1.png);}
 
 	8.3%{background-image:url(wave1.png);}
 
@@ -475,6 +511,19 @@ width: 85vw;
 	0% {background-image:url(surfsup5.svg);}
 	50%{background-image:url(surfsup4.svg);}
 	100%{background-image:url(surfsup5.svg);}
+
+
+
+
+}
+
+@keyframes hightide{
+	0% {background-image:url(button1.svg);
+		transform:rotate(-5deg);}
+	50%{background-image:url(button2.svg);
+		transform:rotate(5deg);}
+	100%{background-image:url(button1.svg);
+		transform:rotate(-5deg);}
 
 
 
