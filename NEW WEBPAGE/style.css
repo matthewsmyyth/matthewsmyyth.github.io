@@ -36,11 +36,12 @@ html, body {
 	}
 
 	.merch {
+
 		width:100vw;
-		height:1550px;
+		height:1800px;
 		position: relative;
 		background-color: rgb(136, 220, 154);
-		top:240px;
+		top:300px;
 		opacity:.9;
 	}
 
@@ -57,7 +58,7 @@ html, body {
 	width:100vw;
 		height:800px;
 		position: absolute;
-		top:650px;
+		top:700px;
 
 }
 
@@ -120,7 +121,7 @@ html, body {
 }
 
 .fifteen {
-	background-image: url("$15_1.svg");
+	background-image: url("$20.svg");
 	background-size: contain;
 	background-repeat: no-repeat;
 	top:73vh;
@@ -236,10 +237,10 @@ p {font-family: Montserrat, sans-serif;
 	background-image: url("date2.svg");
 	background-size: contain;
 	background-repeat: no-repeat;
-	top:30vh;
-	left:10vw;
-	height: 80vh;
-	width: 80vw;
+	top:35vh;
+	left:25vw;
+	height: 50vh;
+	width: 50vw;
 	position: absolute;
 }
 
@@ -247,10 +248,10 @@ p {font-family: Montserrat, sans-serif;
 	background-image: url("20-2.svg");
 	background-size: contain;
 	background-repeat: no-repeat;
-	top:52vh;
-	left:10vw;
-	height: 70vh;
-	width: 70vw;
+	top:56vh;
+	left:30vw;
+	height: 35vh;
+	width: 35vw;
 	position: absolute;
 }
 
@@ -260,8 +261,8 @@ p {font-family: Montserrat, sans-serif;
 	background-repeat: no-repeat;
 	top:71vh;
 	left:10vw;
-	height: 85vh;
-	width: 85vw;
+	height: 75vh;
+	width: 75vw;
 	position: absolute;
 }
 
@@ -310,7 +311,7 @@ p {font-family: Montserrat, sans-serif;
 	margin-left: 10vw;
 	margin-right:10vw;
 	margin-bottom:6vh;
-	margin-top: 15vh;}
+	margin-top: 25vh;}
 
 .merchtype {
 	background-image: url("merch.svg");
