@@ -4,10 +4,15 @@ html, body {
 
 }
 
+.contains-all {
+	width:100vw;
+	height:90vh;
+
+}
+
 .video {
 	position: fixed;
-	top:0;
-	left:0;
+	
 	z-index: -1;
 	background-image: cover;
 
